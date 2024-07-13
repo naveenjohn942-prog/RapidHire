@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+cd eod2-main
+python .\setup_data.py
+
+cd .. (Going to stock pattern dir)
+cd src
+python init.py -c custom.json -p all
+
+#To plot the pattern
+
+python init.py --plot all-daily.json
+=======
+cd eod2-main
+python .\setup_data.py
+
+cd .. (Going to stock pattern dir)
+cd src
+python init.py -c custom.json -p all
+
+#To plot the pattern
+
+python init.py --plot all-daily.json
+>>>>>>> master
